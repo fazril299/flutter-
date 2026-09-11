@@ -60,6 +60,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/font/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -86,3 +87,18 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+  fonts:
+    - family: Aptos
+      fonts:
+        - asset: assets/font/Aptos.ttf
+        - asset: assets/font/Aptos-Italic.ttf
+          style: italic
+        - asset: assets/font/Aptos-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Aptos-SemiBold-Italic.ttf
+          weight: 600
+          style: italic
+    - family: STHUPO
+      fonts:
+        - asset: assets/font/STHUPO.TTF
