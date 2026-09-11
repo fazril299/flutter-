@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,6 @@ class ProfilPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Foto Makanan
             Center(
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
@@ -57,7 +56,6 @@ class ProfilPage extends StatelessWidget {
 
             const SizedBox(height: 25),
 
-            // NIS
             const Text(
               'NIS :',
               style: TextStyle(
@@ -75,7 +73,6 @@ class ProfilPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // NAMA
             const Text(
               'Nama :',
               style: TextStyle(
@@ -93,7 +90,6 @@ class ProfilPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // RAYON
             const Text(
               'Rayon :',
               style: TextStyle(
@@ -111,7 +107,6 @@ class ProfilPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // JURUSAN (Font Pilihan: Fira Code)
             const Text(
               'Jurusan :',
               style: TextStyle(
@@ -121,16 +116,17 @@ class ProfilPage extends StatelessWidget {
             ),
             Text(
               'PPLG',
-              style: GoogleFonts.firaCode(
+              style: TextStyle(
+                fontFamily: 'Aptos',
                 fontSize: 24,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w600,
+                fontStyle: FontStyle.italic,
                 color: Colors.blue,
               ),
             ),
 
             const SizedBox(height: 15),
 
-            // EKSKUL (Font Pilihan: Pacifico)
             const Text(
               'Ekskul :',
               style: TextStyle(
@@ -140,7 +136,8 @@ class ProfilPage extends StatelessWidget {
             ),
             Text(
               'Flutter',
-              style: GoogleFonts.pacifico(
+              style: TextStyle(
+                fontFamily: 'STHUPO',
                 fontSize: 24,
                 color: Colors.teal,
               ),
